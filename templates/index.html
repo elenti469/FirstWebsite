@@ -2,13 +2,198 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <title>My first website</title>
 </head>
 <body>
-    <div><h1>Home Page</h1>
-    <p>Hello, {{name}}!</p>
-    </div> 
+    <h1>Home Page</h1>
+    <h2>Hello, {{name}}!</h2>
+    <h3>This is my first website ever.</h3>
+    <h4>Using HTML and Python only.</h4>
+    <h5>Made in VSCode.</h5>
+    <h6>That's barely readable on larger monitors.</h6> 
+    <hr>
+    <h3>Lorem Ipsum</h3>
+
+     <!--"lorem ipsum" - lipsum.com - use this to fill in text with random latin-->
+    <p> 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <p>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
+        quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+    </p>
+
+    <!--Different text style tags "b", "u" and "i" are the same as in MS Word-->
+    <b><u>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</u></b>
+    <br>
+    <i>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi 
+    sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+    Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
+    placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
+    saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus 
+    maiores alias consequatur aut perferendis doloribus asperiores repellat."</i>
+    <br>
+    <br>
+    <strong>Lorem ipsum</strong> <em>sit amet, consectetur adipiscing elit. Duis gravida nunc eu enim tincidunt pharetra. 
+    Suspendisse dictum sed erat sed ullamcorper. Mauris commodo tortor eget nunc egestas commodo. 
+    Phasellus pretium nisi eget magna pretium aliquet. Maecenas volutpat semper imperdiet. 
+    Phasellus pellentesque laoreet ligula ut dictum. Proin iaculis at erat id efficitur.</em>
+
+    <!--Rule tags-->
+    <hr>
+    <h3>Even more Lorem Ipsum</h3>
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+    Ut eu elementum dolor. Proin venenatis quam mauris, non dignissim sem auctor eu. Sed lacinia tristique dolor, 
+    at egestas lacus. Sed in eleifend tellus. Quisque eu mollis magna. Praesent bibendum nulla turpis, 
+    quis aliquam lorem dapibus sed. In eu pharetra urna, eget dictum quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+    Etiam vitae augue cursus, volutpat neque vitae, maximus nisi. Sed ac cursus nunc, venenatis placerat dolor. Vivamus convallis in tortor a congue. 
+    Fusce vehicula odio nisl. Donec vehicula suscipit convallis.
+    <hr>
+    <h3>LINKS</h3>
+    <!-- <a> - "anchor" - link, target = "_blank" - opens the link in the new tab-->
+    <b><a href = "http://www.lipsum.com" target = "_blank">Lorem Ipsum</a></b>
+    <br>
+    <br>
+    <b><a href = "https://www.placeholder.com" target = "_blank">Placeholder</a></b>
+    <br>
+    <br>
+    <hr>
+
+    <!--placeholder.com - generates image placeholders-->
+    <img src = "https://via.placeholder.com/150x150" border = "5">
+    <br>
+    <img src = "https://via.placeholder.com/420x69">
+    <br>
+    <img src = "https://via.placeholder.com/600x300">
+    
+    <!--instead of using an image from the internet you can use an image from your computer
+        download an image to the same folder as this code
+        then type
+        <img src = "imageName.png">
+    -->
+
+    <hr>
+    <h3>Lists</h3>
+
+    <h4>Unordered list</h4>
+    <ul>
+        <li>hatchback</li>
+        <li>coupe</li>
+        <li>convertible</li>
+        <li>sedan</li>
+        <li>Wagon</li>
+        <li>SUV</li>
+    </ul>
+
+    <h4>Ordered list</h4>
+    <ol>
+        <li>petrol</li>
+        <li>diesel</li>
+        <li>gas</li>
+        <li>hybrid</li>
+        <li>electric</li>
+    </ol>
+
+    <h4>Nesting lists</h4>
+    <ul>
+        <li>hatchback</li>
+            <ul>
+                <li>Toyota GR Yaris</li>
+                <li>Toyota GR Corolla</li>
+                <li>Mazda 3</li>
+                <li>Hyundai i20N</li>
+                <li>Audi A3</li>
+            </ul>
+        <li>coupe</li>
+            <ul>
+                <li>Toyota Supra MkIV</li>
+                <li>Audi Quattro</li>
+                <li>Nissan 240Z</li>
+                <li>Toyota GT86</li>
+                <li>Subaru BRZ</li>
+            </ul>
+        <li>convertible</li>
+            <ul>
+                <li>Mazda MX-5</li>
+                <li>Porsche 911 Cabriolet</li>
+                <li>Ferrari Portofino M</li>
+                <li>Aston Martin Vantage Roadster</li>
+                <li>Aston Martin DBS Superleggera Volante</li>
+            </ul>
+        <li>sedan</li>
+            <ul>
+                <li>Volvo S60</li>
+                <li>Porsche Panamera</li>
+                <li>KIA Stinger</li>
+                <li>Audi S8</li>
+                <li>Mazda 6</li>
+            </ul>
+        <li>Wagon</li>
+            <ul>
+                <li>Volvo V60</li>
+                <li>Volvo V90 Cross Country</li>
+                <li>Audi RS6 Avant</li>
+                <li>Skoda Octavia</li>
+                <li>Volkswagen Passat</li>
+            </ul>
+        <li>SUV</li>
+            <ul>
+                <li>Volvo XC90</li>
+                <li>Toyota Land Cruiser</li>
+                <li>Land Rover Defender</li>
+                <li>Ford Explorer</li>
+                <li>Mercedes-Benz GL-Class</li>
+            </ul>
+    </ul>
+
+    <hr>
+    <h4>Tables</h4>
+    
+    <h5>Household monthly budget table</h5>
+    <table border = "2" cellpadding = "6" cellspacing = "0">
+        <tr>
+            <th></th>
+            <th>Month</th>
+            <th>Rent</th>
+            <th colspan = "2">Utilities</th>
+            <th>Groceries</th>
+            <th>Entertainment</th>
+        </tr>
+        <tr>
+            <td rowspan = "3">Winter</td>
+            <td>January</td>
+            <td>$1500</td>
+            <td>$100</td>
+            <td>$50</td>
+            <td>$400</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$1500</td>
+            <td>$100</td>
+            <td>$50</td>
+            <td>$400</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>$1500</td>
+            <td>$100</td>
+            <td>$50</td>
+            <td>$400</td>
+            <td>$50</td>
+        </tr>
+    </table>
 </body>
 </html>
