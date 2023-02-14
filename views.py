@@ -9,7 +9,7 @@ def home():
 #/views/profile/YourNameHere
 @views.route("/profile/<username>") 
 def profile(username):
-    return render_template("index.html", name = username)
+    return render_template("profile.html", name = username)
 
 @views.route("/go-to-home")
 def go_to_home():
